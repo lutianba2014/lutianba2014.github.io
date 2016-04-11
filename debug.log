@@ -1,0 +1,14 @@
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Hexo version: \u001b[35m3.2.0\u001b[39m","time":"2016-04-11T15:12:32.963Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Working directory: \u001b[35m~/hexoblog/blog/\u001b[39m","time":"2016-04-11T15:12:32.966Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Config loaded: \u001b[35m~/hexoblog/blog/_config.yml\u001b[39m","time":"2016-04-11T15:12:33.061Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Script loaded: \u001b[35mthemes/coney/scripts/fancybox.js\u001b[39m","time":"2016-04-11T15:12:33.074Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2016-04-11T15:12:33.076Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2016-04-11T15:12:33.082Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2016-04-11T15:12:33.084Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2016-04-11T15:12:33.086Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2016-04-11T15:12:33.087Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2016-04-11T15:12:33.090Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2016-04-11T15:12:33.094Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2016-04-11T15:12:33.097Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2016-04-11T15:12:33.154Z","v":0}
+{"name":"hexo","hostname":"192.168.0.101","pid":7700,"level":20,"msg":"Database saved","time":"2016-04-11T15:12:33.163Z","v":0}
