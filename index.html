@@ -79,7 +79,7 @@
 						<li>Links</li>
 						
 						
-						<li>Über</li>
+						<li>A propos</li>
 						
 					</ul>
 				</div>
@@ -228,16 +228,24 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##标题<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure></p>
+        <p>##标题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
 <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>##超链接</p>
-<p>###行内式<br>markdown的语法链接模式行内式：</p>
+<p>###行内式</p>
+<p>markdown的语法链接模式行内式：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">［链接文字］(链接地址 title属性)</span><br><span class="line"> 1.欢迎来到[露天坝](http://lutianba2014.github.io/)</span><br><span class="line"> 2.欢迎来到[露天坝](http://lutianba2014.github.io/ &quot;露天坝“)</span><br></pre></td></tr></table></figure>
-<p>1.欢迎来到<a href="http://lutianba2014.github.io/" target="_blank" rel="external">露天坝2014</a></p>
-<p>2.欢迎来到<a href="http://lutianba2014.github.io/ “露天坝”" target="_blank" rel="external">露天坝2014</a></p>
-<p>###自动链接<br>用&lt;&gt;把一般网址的地址包围起来，Markdown就会自动把他们转换成链接地址<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1.&lt;http://lutianba2014.github.io/&gt;</span><br></pre></td></tr></table></figure></p>
+<ol>
+<li><p>欢迎来到<a href="http://lutianba2014.github.io/" target="_blank" rel="external">露天坝2014</a></p>
+</li>
+<li><p>欢迎来到<a href="http://lutianba2014.github.io/ “露天坝”" target="_blank" rel="external">露天坝2014</a></p>
+</li>
+</ol>
+<p>###自动链接<br>用&lt;&gt;把一般网址的地址包围起来，Markdown就会自动把他们转换成链接地址</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1.&lt;http://lutianba2014.github.io/&gt;</span><br></pre></td></tr></table></figure>
 <p>1.<a href="http://lutianba2014.github.io/" target="_blank" rel="external">http://lutianba2014.github.io/</a></p>
 <p>##列表</p>
-<p>###无序列表<br>使用＊，＋，－表示无序列表</p>
+<p>###无序列表</p>
+<p>使用＊，＋，－表示无序列表</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. - 无序列表1</span><br><span class="line">2. - 无序列表2</span><br><span class="line">3. - 无序列表3</span><br></pre></td></tr></table></figure>
 <ul>
 <li>无序列表1</li>
@@ -251,7 +259,8 @@
 <li>有序列表项 二</li>
 <li>有序列表项 三</li>
 </ol>
-<p>###列表缩进<br>列表项目标记通常是放在最左边，但是其实也可以缩进，最多 3 个空格，项目标记后面则一定要接着至少一个空格或制表符。</p>
+<p>###列表缩进</p>
+<p>列表项目标记通常是放在最左边，但是其实也可以缩进，最多 3 个空格，项目标记后面则一定要接着至少一个空格或制表符。</p>
 <p>要让列表看起来更漂亮，你可以把内容用固定的缩进整理好（显示效果与代码一致）：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">*   轻轻的我走了， 正如我轻轻的来； 我轻轻的招手， 作别西天的云彩。</span><br><span class="line">那河畔的金柳， 是夕阳中的新娘； 波光里的艳影， 在我的心头荡漾。 </span><br><span class="line">软泥上的青荇， 油油的在水底招摇； 在康河的柔波里， 我甘心做一条水草！ </span><br><span class="line">*   那榆荫下的一潭， 不是清泉， 是天上虹； 揉碎在浮藻间， 沉淀着彩虹似的梦。 </span><br><span class="line">寻梦？撑一支长篙， 向青草更青处漫溯； 满载一船星辉， 在星辉斑斓里放歌。 </span><br><span class="line">但我不能放歌， 悄悄是别离的笙箫； 夏虫也为我沉默， 沉默是今晚的康桥！ </span><br><span class="line">悄悄的我走了， 正如我悄悄的来； 我挥一挥衣袖， 不带走一片云彩。</span><br></pre></td></tr></table></figure>
 <ul>
